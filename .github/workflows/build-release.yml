@@ -35,7 +35,7 @@ jobs:
         run: echo "builddate=$(date +'%Y%m%d')" >> $GITHUB_OUTPUT
 
   Build-Kernel:
-    name: "BaKu-Kernel"
+    name: "🐎 Build kernel"
     runs-on: ubuntu-latest
     needs:
       - Set-repos
